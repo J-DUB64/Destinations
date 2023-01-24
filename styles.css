@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+}
+
+header {
+    height: 20%;
+}
+
+main {
+    height: 80%;
+    display: flex;  
+    justify-content: space-evenly;
+}
+
+article {
+    border: 1px solid;
+    width: 40%;
+}
+
+.left__article {
+    border-color: red;
+}
+
+.right__article {
+    border-color: blue;
+}
